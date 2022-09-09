@@ -4,6 +4,9 @@
 #Hen Llinge obfusqué
 #https://pydefis.callicode.fr/defis/C22_Obfuscate01/txt
 
+##############################
+#   SOLUTION : Minnea Enid -> Aimer Paqueretes
+##############################
 
 # Chaine de characteres à déchiffrer : en Supprimant les minuscules suivis de la meme majuscule (eE,xX)
 # ccChjJaaAticCIuU -> chat
