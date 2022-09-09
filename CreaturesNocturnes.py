@@ -39,5 +39,5 @@ TimeMin = 0
 while TimeMin < 50 :
     TimeSecondes = TimeSecondes + 1     #Symbolise les secondes, 1 seconde = 1
     TimeMin = TimeSecondes / 60     #Symbolise les minutes, 1 minute = 60 / secondes EX: 120secondes : 120/60 = 2minutes
-    print("\n",TimeSecondes,"Second","\n",TimeMin,"Minutes","\n")
+    print("\n",TimeSecondes,"Second","\n",TimeMin,"Minutes","\n") #Montre le resultat à chaque secondes
 
