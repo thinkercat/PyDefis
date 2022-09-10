@@ -5,7 +5,7 @@
 #https://pydefis.callicode.fr/defis/C22_Obfuscate01/txt
 
 ##############################
-#   SOLUTION : Minnea Enid -> Aimer Paqueretes
+#   SOLUTION : Minnea Enid -> Aimer Paquerettes
 ##############################
 
 # Chaine de characteres à déchiffrer : en Supprimant les minuscules suivis de la meme majuscule (eE,xX)
