@@ -20,7 +20,6 @@
 # tuer 2 chauves-souris, 1 skellington, 1 zombie et 1 fantôme baveux supplémentaires.
 
 #Variables au démarrage du jeu
-from tkinter import S
 
 # Creatures
 ChauveSouris = 0
