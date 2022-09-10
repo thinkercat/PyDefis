@@ -20,24 +20,65 @@
 # tuer 2 chauves-souris, 1 skellington, 1 zombie et 1 fantôme baveux supplémentaires.
 
 #Variables au démarrage du jeu
+from tkinter import S
+
+# Creatures
 ChauveSouris = 0
 Skellington = 0
 Zombie = 0
 Fantome = 0
 
-creatures = [ChauveSouris,Skellington,Zombie,Fantome]
-
+# Damage
 ChauveSourisDamage = 0
 SkellingtonDamage = 0
+ZombieDamage = 0
 FantomeDamage = 0
 
-AntonioHit = [ChauveSourisDamage,SkellingtonDamage,FantomeDamage]
-
+# Time
 TimeSecondes = 0
 TimeMin = 0
 
-while TimeMin < 50 :
+# Deroulement de la partie
+while TimeMin < 50 :    # La partie dure 50min
     TimeSecondes = TimeSecondes + 1     #Symbolise les secondes, 1 seconde = 1
     TimeMin = TimeSecondes / 60     #Symbolise les minutes, 1 minute = 60 / secondes EX: 120secondes : 120/60 = 2minutes
-    print("\n",TimeSecondes,"Second","\n",TimeMin,"Minutes","\n") #Montre le resultat à chaque secondes
+    print("\n",TimeSecondes,"Second","\n",TimeMin,"Minutes") #Montre le resultat à chaque secondes
+
+    # Apparition des créatures par tours
+    if TimeSecondes%2 == 0 :                # Chaque 2s 
+        ChauveSouris = ChauveSouris + 10    # ChauveSouris Augmente de 10
+
+    if TimeSecondes%5 == 0 :                # Chaque 5s
+        Skellington = Skellington + 5       # Skellington Augmente de 5
+
+    if TimeSecondes%6 == 0 :                # Chaque 6s
+        Zombie = Zombie + 4                 # Zombie Augmente de 4
+
+    if TimeSecondes%10 == 0 :               # Chaque 10s
+        Fantome = Fantome + 3               # Fantome Augmente de 3
+
+    # Dégats par tours
+    if TimeSecondes%6 == 0:                             # Chaque 6s
+        ChauveSourisDamage = ChauveSourisDamage + 2     # ChauveSourisDamage Augmente de 2
+    
+    if TimeSecondes%20 == 0 :                           # Chaque 20s
+        SkellingtonDamage = SkellingtonDamage + 1       # SkellingtonDamage Augmente de 1
+    
+    if TimeSecondes%30 == 0 :                           # Chaque 30s
+        ZombieDamage = ZombieDamage + 1                 # ZombieDamage Augmente de 1
+    
+    if TimeSecondes%40 == 0 :                           # Chaque 40s
+        FantomeDamage = FantomeDamage + 1               # FantomeDamage Augmente de 1
+
+
+    print("**Créatures**\nChauves souris: ",ChauveSouris,"\nSkellingtons: ",Skellington,"\nZombies: ",Zombie,"\nFantomes: ",Fantome)
+    print("**Dégats**\nChauves souris:",ChauveSourisDamage,"\nSkellingtons: ",SkellingtonDamage,"\nZombies: ",ZombieDamage,"\nFantomes: ",FantomeDamage)
+
+    ChauveSouris = ChauveSouris - ChauveSourisDamage
+    Skellington = Skellington - SkellingtonDamage
+    Zombie = Zombie - ZombieDamage
+    Fantome = Fantome - FantomeDamage
+
+    print (ChauveSouris,Skellington,Zombie,Fantome) 
+
 
