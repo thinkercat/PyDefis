@@ -1,7 +1,6 @@
 #!/usr/bin/python
 #By https://github.com/thinkercat
 #Désamorçage à la Tony Stark
-#Désamorçage à la Tony Stark
 #https://pydefis.callicode.fr/defis/SpymasterBomb/txt
 
 # Tout ce dont il se souvient, c'est que le code à entrer est la 

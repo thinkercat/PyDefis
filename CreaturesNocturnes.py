@@ -45,23 +45,23 @@ while TimeMin < 50 :    # La partie dure 50min
 
     # Apparition des créatures par tours
     if TimeSecondes%2 == 0 :                # Chaque 2s 
-        ChauveSouris = ChauveSouris + 10    # ChauveSouris Augmente de 10
+        ChauveSouris += 10    # ChauveSouris Augmente de 10
 
     if TimeSecondes%5 == 0 :                # Chaque 5s
-        Skellington = Skellington + 5       # Skellington Augmente de 5
+        Skellington += 5       # Skellington Augmente de 5
 
     if TimeSecondes%6 == 0 :                # Chaque 6s
-        Zombie = Zombie + 4                 # Zombie Augmente de 4
+        Zombie += 4                 # Zombie Augmente de 4
 
     if TimeSecondes%10 == 0 :               # Chaque 10s
-        Fantome = Fantome + 3               # Fantome Augmente de 3
+        Fantome += 3               # Fantome Augmente de 3
 
     # Amelioration Antonio
     if TimeMin%4 == 0 :                                 # Chaque 4min
-        ChauveSourisDamage = ChauveSourisDamage + 2     # ChauveSourisDamage Augmente de 2
-        SkellingtonDamage = SkellingtonDamage + 1       # SkellingtonDamage Augmente de 1
-        ZombieDamage = ZombieDamage + 1                 # ZombieDamage Augmente de 1
-        FantomeDamage = FantomeDamage + 1               # FantomeDamage Augmente de 1
+        ChauveSourisDamage += 2     # ChauveSourisDamage Augmente de 2
+        SkellingtonDamage += 1       # SkellingtonDamage Augmente de 1
+        ZombieDamage += 1                 # ZombieDamage Augmente de 1
+        FantomeDamage += 1               # FantomeDamage Augmente de 1
 
     # Dégats par tours
     if TimeSecondes%6 == 0:                                 # Chaque 6s
