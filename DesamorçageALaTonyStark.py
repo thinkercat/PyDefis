@@ -14,3 +14,20 @@
 
 # Valeur : 1435
 ## Scipt ##
+
+valeur = 1435
+Rvaleur = 1
+Qvaleur = 1
+print("1")
+while Rvaleur != 0 :
+    if valeur%3 == 0 :
+        Rvaleur = valeur%3
+        Qvaleur = valeur//3
+        print(Rvaleur,Qvaleur)
+    elif valeur%5 == 0:
+        Rvaleur = valeur%3
+        Qvaleur = valeur//3
+        print(Rvaleur,Qvaleur)
+    valeur -= Qvaleur
+    print(valeur)
+print("2")
