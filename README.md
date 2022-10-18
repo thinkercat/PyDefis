@@ -8,6 +8,7 @@
 
 * [**SWIV**](https://pydefis.callicode.fr/defis/VitesseLumiere/txt) **->** [*Solution*](https://github.com/thinkercat/PyDefis/blob/master/SWIV.py)
 * [**Desamorçage à la Tony Ttark**](https://pydefis.callicode.fr/defis/SpymasterBomb/txt) **->** [*Solution*](https://github.com/thinkercat/PyDefis/blob/master/DesamorçageALaTonyStark.py)
+* [**Desamorçage Explosif 1**](https://pydefis.callicode.fr/defis/Desamorcage01/txt) **->** [*Solution*](https://github.com/thinkercat/PyDefis/blob/master/DesamorçageExplosif.py)
 
 ### Niveau 🥴
 
