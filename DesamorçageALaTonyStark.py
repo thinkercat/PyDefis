@@ -25,4 +25,4 @@ while number < valeur_de_fin:
     number+=1
     print(f"Number = {number} et Code = {code}\n")
 
-print(code)
+print(code) # = 480248
