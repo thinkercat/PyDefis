@@ -14,6 +14,7 @@
 
 * [**Créatures Nocturnes**](https://pydefis.callicode.fr/defis/C22_VampireSurvivors/txt) **->** [*Solution*](https://github.com/thinkercat/PyDefis/blob/master/CreaturesNocturnes.py)
 * [**Hen Llinge obfusqué**](https://pydefis.callicode.fr/defis/C22_Obfuscate01/txt) **->**[*Solution*](https://github.com/thinkercat/PyDefis/blob/master/HenLlingeObfusqué.py)
+* [**Lunettes Astro**](https://pydefis.callicode.fr/defis/TocBoum/txt) **->**[*Solution*](https://github.com/thinkercat/PyDefis/blob/master/LunettesAstro.py)
 
 ### Niveau 🤢
 
