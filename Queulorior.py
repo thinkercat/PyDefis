@@ -13,7 +13,7 @@ screen = pg.display.set_mode((widht,height))   #Dimensions de la fenetre
 screen.fill([000,000,000])
 
 
-instruction = NNEESOOEES
+instruction = "NNEESOOEES"
 
 
 
